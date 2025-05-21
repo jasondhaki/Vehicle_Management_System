@@ -460,7 +460,7 @@ void Register_Vehicles()
         {
             for(int i = 0; i<2; i++)
                 printf(" ");
-            printf("🚫 Inavlid Input!\n");
+            printf("🚫 Invalid Input!\n");
         }           
     }while(car_type>3 || car_type<1);
 
@@ -476,7 +476,7 @@ void Register_Vehicles()
         {
             for(int i = 0; i<2; i++)
                 printf(" ");
-            printf("🚫 Inavlid Input!\n");
+            printf("🚫 Invalid Input!\n");
         }
     } while (am_pm<1 || am_pm>2);
 
@@ -504,7 +504,7 @@ void is_Valid_Time(int *entry_hour, int *entry_min)
         {
             for(int i = 0; i<2; i++)
                 printf(" ");
-            printf("🚫 Inavlid Input!\n");
+            printf("🚫 Invalid Input!\n");
         }
     }while(*entry_hour<1 || *entry_hour>12);
 
@@ -518,7 +518,7 @@ void is_Valid_Time(int *entry_hour, int *entry_min)
         {
             for(int i = 0; i<2; i++)
                 printf(" ");
-            printf("🚫 Inavlid Input!\n");
+            printf("🚫 Invalid Input!\n");
         }
     } while (*entry_min<1 || *entry_min>59);
 }
